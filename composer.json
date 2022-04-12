@@ -1,0 +1,21 @@
+{
+    "name": "yjcheah/package_1",
+    "description": "first_test_composer",
+    "type": "library",
+    "require": {
+        "illuminate/support": "8.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yjcheah\\Package1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fplecheah",
+            "email": "yoongjian@fple.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
